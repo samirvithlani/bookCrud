@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+
+	<display-name>advance_unlock_2020_CRUD</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<servlet>
+		<description></description>
+		<display-name>BookInsertController</display-name>
+		<servlet-name>BookInsertController</servlet-name>
+		<servlet-class>com.controller.BookInsertController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookInsertController</servlet-name>
+		<url-pattern>/BookInsertController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>BookListController</display-name>
+		<servlet-name>BookListController</servlet-name>
+		<servlet-class>com.controller.BookListController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookListController</servlet-name>
+		<url-pattern>/BookListController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>BookDeleteController</display-name>
+		<servlet-name>BookDeleteController</servlet-name>
+		<servlet-class>com.controller.BookDeleteController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookDeleteController</servlet-name>
+		<url-pattern>/BookDeleteController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>BookEditController</display-name>
+		<servlet-name>BookEditController</servlet-name>
+		<servlet-class>com.controller.BookEditController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookEditController</servlet-name>
+		<url-pattern>/BookEditController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>BookUpdateController</display-name>
+		<servlet-name>BookUpdateController</servlet-name>
+		<servlet-class>com.controller.BookUpdateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookUpdateController</servlet-name>
+		<url-pattern>/BookUpdateController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>AdminLoginController</display-name>
+		<servlet-name>AdminLoginController</servlet-name>
+		<servlet-class>com.controller.AdminLoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginController</servlet-name>
+		<url-pattern>/AdminLoginController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>AdminLogoutController</display-name>
+		<servlet-name>AdminLogoutController</servlet-name>
+		<servlet-class>com.controller.AdminLogoutController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogoutController</servlet-name>
+		<url-pattern>/AdminLogoutController</url-pattern>
+	</servlet-mapping>
+
+</web-app>
